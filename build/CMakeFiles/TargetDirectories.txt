@@ -1,0 +1,3 @@
+/home/john/udacity/udacitycplusplus/course5/udacitycplusplus5/build/CMakeFiles/traffic_simulation.dir
+/home/john/udacity/udacitycplusplus/course5/udacitycplusplus5/build/CMakeFiles/edit_cache.dir
+/home/john/udacity/udacitycplusplus/course5/udacitycplusplus5/build/CMakeFiles/rebuild_cache.dir
