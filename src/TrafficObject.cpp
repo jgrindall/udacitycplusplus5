@@ -2,6 +2,8 @@
 #include <chrono>
 #include "TrafficObject.h"
 
+using namespace std;
+
 // init static variable
 int TrafficObject::_idCnt = 0;
 
@@ -23,7 +25,8 @@ TrafficObject::TrafficObject()
     _id = _idCnt++;
 }
 
-TrafficObject::~TrafficObject()
-{
-    // Task L1.1 : Set up a thread barrier that ensures that all the thread objects in the member vector _threads are joined.
+TrafficObject::~TrafficObject(){
+    for(thread& t : _threads){
+        t.join();
+    }
 }
